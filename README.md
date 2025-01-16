@@ -1,0 +1,1 @@
+This repo demonstrates a bug in Expo's `Linking.openURLAsync` where the error message is not helpful when the URL scheme is not handled by any installed apps.  The `unhelpfulLinkingError.js` file shows the problematic behavior. The `unhelpfulLinkingErrorSolution.js` file offers a potential solution to improve the user experience by providing more specific error handling.
