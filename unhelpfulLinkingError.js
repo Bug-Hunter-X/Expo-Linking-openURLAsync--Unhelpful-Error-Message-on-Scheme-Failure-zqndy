@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Linking` API to open a URL in a different app.  If the URL scheme is not handled by any installed app, the promise returned by `Linking.openURLAsync` rejects, but the error message isn't very informative, making debugging difficult.  It might just say something generic like 'failed to open URL' without specifying why.
